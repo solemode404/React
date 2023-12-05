@@ -28,8 +28,8 @@ search: ""
  <h1>Produce Search</h1> 
  
  <DropdownButton id = "typeDropdown" title = {"Produce Type"}>
-    <Dropdown.Item eventKey="all" onSelect={this.onFilter}>All</Dropdown.Item>
-    <Dropdown.Item eventKey="fruit" onSelect={this.onFilter}>Fruit</Dropdown.Item>
+    <Dropdown.Item eventKey="all" onSelect={this.onFilter}>All</Dropdown.Item><br></br>
+    <Dropdown.Item eventKey="fruit" onSelect={this.onFilter}>Fruit</Dropdown.Item><br></br>
     <Dropdown.Item eventKey="vegetable" onSelect={this.onFilter}>Vegetable</Dropdown.Item>
     
 </DropdownButton>
